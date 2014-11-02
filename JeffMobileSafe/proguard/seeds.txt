@@ -1,0 +1,420 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.INotificationSideChannel: void cancel(java.lang.String,int,java.lang.String)
+android.support.v4.app.INotificationSideChannel$Stub$Proxy: void cancel(java.lang.String,int,java.lang.String)
+android.support.v4.app.NotificationCompatSideChannelService: void cancel(java.lang.String,int,java.lang.String)
+android.support.v4.app.NotificationCompatSideChannelService$NotificationSideChannelStub: void cancel(java.lang.String,int,java.lang.String)
+android.support.v4.app.NotificationManagerCompat: void cancel(int)
+android.support.v4.app.NotificationManagerCompat: void cancel(java.lang.String,int)
+android.support.v4.content.FileProvider: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)
+android.support.v4.content.ModernAsyncTask: boolean cancel(boolean)
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.util.LongSparseArray: void clear()
+android.support.v4.util.MapCollections$EntrySet: void clear()
+android.support.v4.util.MapCollections$KeySet: void clear()
+android.support.v4.util.MapCollections$ValuesCollection: void clear()
+android.support.v4.util.SimpleArrayMap: void clear()
+android.support.v4.util.SparseArrayCompat: void clear()
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplBase: void cancel()
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.ViewPropertyAnimatorCompat: void cancel()
+android.support.v4.view.ViewPropertyAnimatorCompat$BaseViewPropertyAnimatorCompatImpl: void cancel(android.view.View)
+android.support.v4.view.ViewPropertyAnimatorCompat$ICSViewPropertyAnimatorCompatImpl: void cancel(android.view.View)
+android.support.v4.view.ViewPropertyAnimatorCompat$ViewPropertyAnimatorCompatImpl: void cancel(android.view.View)
+android.support.v4.view.ViewPropertyAnimatorCompatICS: void cancel(android.view.View)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableLeft(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawableRight(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SwipeRefreshLayout: void setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener)
+android.support.v4.widget.SwipeRefreshLayout: void setTriggerPercentage(float)
+android.support.v4.widget.SwipeRefreshLayout: void setRefreshing(boolean)
+android.support.v4.widget.SwipeRefreshLayout: void setTargetOffsetTopAndBottom(int)
+android.support.v4.widget.ViewDragHelper: void cancel()
+com.lidroid.xutils.BitmapUtils: void cancel()
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom[] values()
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom valueOf(java.lang.String)
+com.lidroid.xutils.cache.KeyExpiryMap: void clear()
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType[] values()
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType valueOf(java.lang.String)
+com.lidroid.xutils.http.HttpCache: void clear()
+com.lidroid.xutils.http.HttpHandler: void cancel()
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State[] values()
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State valueOf(java.lang.String)
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod[] values()
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod valueOf(java.lang.String)
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode[] values()
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode valueOf(java.lang.String)
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority[] values()
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority valueOf(java.lang.String)
+com.lidroid.xutils.task.PriorityAsyncTask: boolean cancel(boolean)
+com.lidroid.xutils.task.PriorityAsyncTask: void cancel()
+com.lidroid.xutils.task.PriorityObjectBlockingQueue: void clear()
+com.lidroid.xutils.task.TaskHandler: void cancel()
+com.lidroid.xutils.util.DoubleKeyValueMap: void clear()
+com.lidroid.xutils.util.PreferencesCookieStore: void clear()
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType[] values()
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType valueOf(java.lang.String)
+com.rolfwang.mobilesafe.ChangePostionActivity
+com.rolfwang.mobilesafe.ChangePostionActivity: ChangePostionActivity()
+com.rolfwang.mobilesafe.ContactActivity
+com.rolfwang.mobilesafe.ContactActivity: ContactActivity()
+com.rolfwang.mobilesafe.HomeActivity
+com.rolfwang.mobilesafe.HomeActivity: HomeActivity()
+com.rolfwang.mobilesafe.LostFindActivity
+com.rolfwang.mobilesafe.LostFindActivity: LostFindActivity()
+com.rolfwang.mobilesafe.LostFindActivity: void protectedFun(android.view.View)
+com.rolfwang.mobilesafe.LostFindActivity: void resetGuid(android.view.View)
+com.rolfwang.mobilesafe.R$anim: int cycle_7
+com.rolfwang.mobilesafe.R$anim: int next_new_enter
+com.rolfwang.mobilesafe.R$anim: int next_old_out
+com.rolfwang.mobilesafe.R$anim: int previous_new_enter
+com.rolfwang.mobilesafe.R$anim: int prevoius_old_out
+com.rolfwang.mobilesafe.R$anim: int shake
+com.rolfwang.mobilesafe.R$attr: int des
+com.rolfwang.mobilesafe.R$attr: int des_off
+com.rolfwang.mobilesafe.R$attr: int des_on
+com.rolfwang.mobilesafe.R$attr: int title
+com.rolfwang.mobilesafe.R$dimen: int activity_horizontal_margin
+com.rolfwang.mobilesafe.R$dimen: int activity_vertical_margin
+com.rolfwang.mobilesafe.R$drawable: int app
+com.rolfwang.mobilesafe.R$drawable: int atools
+com.rolfwang.mobilesafe.R$drawable: int bind
+com.rolfwang.mobilesafe.R$drawable: int btn_green_normal
+com.rolfwang.mobilesafe.R$drawable: int btn_green_pressed
+com.rolfwang.mobilesafe.R$drawable: int call_locate_blue
+com.rolfwang.mobilesafe.R$drawable: int call_locate_gray
+com.rolfwang.mobilesafe.R$drawable: int call_locate_green
+com.rolfwang.mobilesafe.R$drawable: int call_locate_orange
+com.rolfwang.mobilesafe.R$drawable: int call_locate_white
+com.rolfwang.mobilesafe.R$drawable: int callmsgsafe
+com.rolfwang.mobilesafe.R$drawable: int default_img
+com.rolfwang.mobilesafe.R$drawable: int function_greenbutton_normal
+com.rolfwang.mobilesafe.R$drawable: int function_greenbutton_pressed
+com.rolfwang.mobilesafe.R$drawable: int ic_launcher
+com.rolfwang.mobilesafe.R$drawable: int img1
+com.rolfwang.mobilesafe.R$drawable: int img2
+com.rolfwang.mobilesafe.R$drawable: int img3
+com.rolfwang.mobilesafe.R$drawable: int img4
+com.rolfwang.mobilesafe.R$drawable: int jiantou1_pressed
+com.rolfwang.mobilesafe.R$drawable: int layer_list_progress
+com.rolfwang.mobilesafe.R$drawable: int local_popup_bg
+com.rolfwang.mobilesafe.R$drawable: int lock
+com.rolfwang.mobilesafe.R$drawable: int luncher_bg
+com.rolfwang.mobilesafe.R$drawable: int main_clean_icon
+com.rolfwang.mobilesafe.R$drawable: int main_clean_icon_pressed
+com.rolfwang.mobilesafe.R$drawable: int my_progressbar_style
+com.rolfwang.mobilesafe.R$drawable: int netmanager
+com.rolfwang.mobilesafe.R$drawable: int next
+com.rolfwang.mobilesafe.R$drawable: int phone
+com.rolfwang.mobilesafe.R$drawable: int previous
+com.rolfwang.mobilesafe.R$drawable: int safe
+com.rolfwang.mobilesafe.R$drawable: int scanner_bg
+com.rolfwang.mobilesafe.R$drawable: int scanner_rotation
+com.rolfwang.mobilesafe.R$drawable: int security_progress
+com.rolfwang.mobilesafe.R$drawable: int security_progress_bg
+com.rolfwang.mobilesafe.R$drawable: int select_reset_button
+com.rolfwang.mobilesafe.R$drawable: int selector_button
+com.rolfwang.mobilesafe.R$drawable: int selector_remove_blacknum
+com.rolfwang.mobilesafe.R$drawable: int selector_select_contacts
+com.rolfwang.mobilesafe.R$drawable: int selector_show_password
+com.rolfwang.mobilesafe.R$drawable: int settings
+com.rolfwang.mobilesafe.R$drawable: int setup1
+com.rolfwang.mobilesafe.R$drawable: int shape_circle_corner_bg
+com.rolfwang.mobilesafe.R$drawable: int shape_circle_corner_bg2
+com.rolfwang.mobilesafe.R$drawable: int shenmabg
+com.rolfwang.mobilesafe.R$drawable: int sliding_drawer_handle
+com.rolfwang.mobilesafe.R$drawable: int sysoptimize
+com.rolfwang.mobilesafe.R$drawable: int taskmanager
+com.rolfwang.mobilesafe.R$drawable: int trojan
+com.rolfwang.mobilesafe.R$drawable: int unlock
+com.rolfwang.mobilesafe.R$drawable: int widget_bg_portrait
+com.rolfwang.mobilesafe.R$drawable: int widget_bg_portrait_child
+com.rolfwang.mobilesafe.R$drawable: int widget_bg_portrait_child_divider
+com.rolfwang.mobilesafe.R$id: int action_settings
+com.rolfwang.mobilesafe.R$id: int bt_addBlack
+com.rolfwang.mobilesafe.R$id: int bt_again
+com.rolfwang.mobilesafe.R$id: int bt_backup_sms
+com.rolfwang.mobilesafe.R$id: int bt_cancel
+com.rolfwang.mobilesafe.R$id: int bt_clear
+com.rolfwang.mobilesafe.R$id: int bt_confirm
+com.rolfwang.mobilesafe.R$id: int bt_ok
+com.rolfwang.mobilesafe.R$id: int bt_query
+com.rolfwang.mobilesafe.R$id: int bt_query_address
+com.rolfwang.mobilesafe.R$id: int bt_restore_sms
+com.rolfwang.mobilesafe.R$id: int bt_select
+com.rolfwang.mobilesafe.R$id: int btn_clear
+com.rolfwang.mobilesafe.R$id: int cb
+com.rolfwang.mobilesafe.R$id: int cb_check
+com.rolfwang.mobilesafe.R$id: int cb_protected
+com.rolfwang.mobilesafe.R$id: int et_password
+com.rolfwang.mobilesafe.R$id: int et_password_confirm
+com.rolfwang.mobilesafe.R$id: int et_phoneNum
+com.rolfwang.mobilesafe.R$id: int et_safeNum
+com.rolfwang.mobilesafe.R$id: int gv_home
+com.rolfwang.mobilesafe.R$id: int iv_icon
+com.rolfwang.mobilesafe.R$id: int iv_lock
+com.rolfwang.mobilesafe.R$id: int iv_protected
+com.rolfwang.mobilesafe.R$id: int iv_remove
+com.rolfwang.mobilesafe.R$id: int iv_sanner
+com.rolfwang.mobilesafe.R$id: int iv_scanner
+com.rolfwang.mobilesafe.R$id: int iv_show_password
+com.rolfwang.mobilesafe.R$id: int ll_content
+com.rolfwang.mobilesafe.R$id: int ll_info
+com.rolfwang.mobilesafe.R$id: int ll_share
+com.rolfwang.mobilesafe.R$id: int ll_show
+com.rolfwang.mobilesafe.R$id: int ll_start
+com.rolfwang.mobilesafe.R$id: int ll_uninstall
+com.rolfwang.mobilesafe.R$id: int lv_blacknum
+com.rolfwang.mobilesafe.R$id: int lv_contact
+com.rolfwang.mobilesafe.R$id: int lv_content
+com.rolfwang.mobilesafe.R$id: int lv_proc
+com.rolfwang.mobilesafe.R$id: int lv_soft
+com.rolfwang.mobilesafe.R$id: int pb
+com.rolfwang.mobilesafe.R$id: int pb_scanner
+com.rolfwang.mobilesafe.R$id: int pb_splash_load
+com.rolfwang.mobilesafe.R$id: int process_count
+com.rolfwang.mobilesafe.R$id: int process_memory
+com.rolfwang.mobilesafe.R$id: int rb_all
+com.rolfwang.mobilesafe.R$id: int rb_call
+com.rolfwang.mobilesafe.R$id: int rb_sms
+com.rolfwang.mobilesafe.R$id: int rg_black_type
+com.rolfwang.mobilesafe.R$id: int sd_content
+com.rolfwang.mobilesafe.R$id: int sd_handle
+com.rolfwang.mobilesafe.R$id: int sev_postion
+com.rolfwang.mobilesafe.R$id: int sev_shortcut
+com.rolfwang.mobilesafe.R$id: int sev_style
+com.rolfwang.mobilesafe.R$id: int sv_address
+com.rolfwang.mobilesafe.R$id: int sv_bind
+com.rolfwang.mobilesafe.R$id: int sv_black_service
+com.rolfwang.mobilesafe.R$id: int sv_sorf_lock
+com.rolfwang.mobilesafe.R$id: int sv_update
+com.rolfwang.mobilesafe.R$id: int textView1
+com.rolfwang.mobilesafe.R$id: int tv_active
+com.rolfwang.mobilesafe.R$id: int tv_address
+com.rolfwang.mobilesafe.R$id: int tv_blacknum
+com.rolfwang.mobilesafe.R$id: int tv_bottom
+com.rolfwang.mobilesafe.R$id: int tv_cache_size
+com.rolfwang.mobilesafe.R$id: int tv_category
+com.rolfwang.mobilesafe.R$id: int tv_clear_cache
+com.rolfwang.mobilesafe.R$id: int tv_clear_sd
+com.rolfwang.mobilesafe.R$id: int tv_count
+com.rolfwang.mobilesafe.R$id: int tv_des
+com.rolfwang.mobilesafe.R$id: int tv_load
+com.rolfwang.mobilesafe.R$id: int tv_mem
+com.rolfwang.mobilesafe.R$id: int tv_mode
+com.rolfwang.mobilesafe.R$id: int tv_name
+com.rolfwang.mobilesafe.R$id: int tv_num
+com.rolfwang.mobilesafe.R$id: int tv_position
+com.rolfwang.mobilesafe.R$id: int tv_proc_count
+com.rolfwang.mobilesafe.R$id: int tv_ramSize
+com.rolfwang.mobilesafe.R$id: int tv_romsize
+com.rolfwang.mobilesafe.R$id: int tv_safeNum
+com.rolfwang.mobilesafe.R$id: int tv_scanner
+com.rolfwang.mobilesafe.R$id: int tv_sdsize
+com.rolfwang.mobilesafe.R$id: int tv_show
+com.rolfwang.mobilesafe.R$id: int tv_splash_version
+com.rolfwang.mobilesafe.R$id: int tv_title
+com.rolfwang.mobilesafe.R$id: int tv_top
+com.rolfwang.mobilesafe.R$id: int tv_version
+com.rolfwang.mobilesafe.R$layout: int activity_antivirus
+com.rolfwang.mobilesafe.R$layout: int activity_atools
+com.rolfwang.mobilesafe.R$layout: int activity_call_sms_safe
+com.rolfwang.mobilesafe.R$layout: int activity_change_position
+com.rolfwang.mobilesafe.R$layout: int activity_clear_cache
+com.rolfwang.mobilesafe.R$layout: int activity_contact
+com.rolfwang.mobilesafe.R$layout: int activity_home
+com.rolfwang.mobilesafe.R$layout: int activity_lostfind
+com.rolfwang.mobilesafe.R$layout: int activity_proc_manager
+com.rolfwang.mobilesafe.R$layout: int activity_query_address
+com.rolfwang.mobilesafe.R$layout: int activity_setting
+com.rolfwang.mobilesafe.R$layout: int activity_setup1
+com.rolfwang.mobilesafe.R$layout: int activity_setup2
+com.rolfwang.mobilesafe.R$layout: int activity_setup3
+com.rolfwang.mobilesafe.R$layout: int activity_setup4
+com.rolfwang.mobilesafe.R$layout: int activity_soft_manager
+com.rolfwang.mobilesafe.R$layout: int activity_splash
+com.rolfwang.mobilesafe.R$layout: int activity_trafficstate
+com.rolfwang.mobilesafe.R$layout: int activity_watchdog
+com.rolfwang.mobilesafe.R$layout: int dialog_add_black
+com.rolfwang.mobilesafe.R$layout: int enter_dialog
+com.rolfwang.mobilesafe.R$layout: int fragment_cache_clear
+com.rolfwang.mobilesafe.R$layout: int fragment_sd_clear
+com.rolfwang.mobilesafe.R$layout: int gridview_item_home
+com.rolfwang.mobilesafe.R$layout: int item_blacknum_listview
+com.rolfwang.mobilesafe.R$layout: int item_cache
+com.rolfwang.mobilesafe.R$layout: int item_contacts
+com.rolfwang.mobilesafe.R$layout: int item_soft_manager
+com.rolfwang.mobilesafe.R$layout: int item_task_manager
+com.rolfwang.mobilesafe.R$layout: int my_appwidget
+com.rolfwang.mobilesafe.R$layout: int mytoast_layout
+com.rolfwang.mobilesafe.R$layout: int popup_view_layout
+com.rolfwang.mobilesafe.R$layout: int setting_enter_view
+com.rolfwang.mobilesafe.R$layout: int setting_view
+com.rolfwang.mobilesafe.R$layout: int setup_dialog
+com.rolfwang.mobilesafe.R$menu: int splash
+com.rolfwang.mobilesafe.R$raw: int ylzs
+com.rolfwang.mobilesafe.R$string: int action_settings
+com.rolfwang.mobilesafe.R$string: int app_name
+com.rolfwang.mobilesafe.R$string: int device_admin
+com.rolfwang.mobilesafe.R$string: int device_admin_description
+com.rolfwang.mobilesafe.R$string: int hello_world
+com.rolfwang.mobilesafe.R$string: int url
+com.rolfwang.mobilesafe.R$style: int AppBaseTheme
+com.rolfwang.mobilesafe.R$style: int AppTheme
+com.rolfwang.mobilesafe.R$style: int HorizontalProgressBar
+com.rolfwang.mobilesafe.R$style: int btn_next
+com.rolfwang.mobilesafe.R$style: int btn_pre
+com.rolfwang.mobilesafe.R$style: int text_content
+com.rolfwang.mobilesafe.R$style: int widget_text
+com.rolfwang.mobilesafe.R$styleable: int[] com_rolfwang_mobilesafe_ui_SettingView
+com.rolfwang.mobilesafe.R$styleable: int com_rolfwang_mobilesafe_ui_SettingView_des
+com.rolfwang.mobilesafe.R$styleable: int com_rolfwang_mobilesafe_ui_SettingView_des_off
+com.rolfwang.mobilesafe.R$styleable: int com_rolfwang_mobilesafe_ui_SettingView_des_on
+com.rolfwang.mobilesafe.R$styleable: int com_rolfwang_mobilesafe_ui_SettingView_title
+com.rolfwang.mobilesafe.R$xml: int device_admin
+com.rolfwang.mobilesafe.R$xml: int my_appwidget_info
+com.rolfwang.mobilesafe.SettingActivity
+com.rolfwang.mobilesafe.SettingActivity: SettingActivity()
+com.rolfwang.mobilesafe.Setup1Activity
+com.rolfwang.mobilesafe.Setup1Activity: Setup1Activity()
+com.rolfwang.mobilesafe.Setup2Activity
+com.rolfwang.mobilesafe.Setup2Activity: Setup2Activity()
+com.rolfwang.mobilesafe.Setup3Activity
+com.rolfwang.mobilesafe.Setup3Activity: Setup3Activity()
+com.rolfwang.mobilesafe.Setup3Activity: void selectContant(android.view.View)
+com.rolfwang.mobilesafe.Setup4Activity
+com.rolfwang.mobilesafe.Setup4Activity: Setup4Activity()
+com.rolfwang.mobilesafe.Setup4Activity: void active(android.view.View)
+com.rolfwang.mobilesafe.SetupBaseActivity: SetupBaseActivity()
+com.rolfwang.mobilesafe.SetupBaseActivity: void next(android.view.View)
+com.rolfwang.mobilesafe.SetupBaseActivity: void pre(android.view.View)
+com.rolfwang.mobilesafe.SplashActivity
+com.rolfwang.mobilesafe.SplashActivity: SplashActivity()
+com.rolfwang.mobilesafe.advanced.AToolsActivity
+com.rolfwang.mobilesafe.advanced.AToolsActivity: AToolsActivity()
+com.rolfwang.mobilesafe.advanced.AToolsActivity: void queryAddress(android.view.View)
+com.rolfwang.mobilesafe.advanced.AToolsActivity: void backupSms(android.view.View)
+com.rolfwang.mobilesafe.advanced.AToolsActivity: void restore(android.view.View)
+com.rolfwang.mobilesafe.advanced.QueryAddressActivity
+com.rolfwang.mobilesafe.advanced.QueryAddressActivity: QueryAddressActivity()
+com.rolfwang.mobilesafe.advanced.QueryAddressActivity: void query(android.view.View)
+com.rolfwang.mobilesafe.antivirus.AntivirusActivity
+com.rolfwang.mobilesafe.antivirus.AntivirusActivity: AntivirusActivity()
+com.rolfwang.mobilesafe.antivirus.AntivirusActivity: void againScan(android.view.View)
+com.rolfwang.mobilesafe.antivirus.AntivirusActivity: void clear(android.view.View)
+com.rolfwang.mobilesafe.application.MyApplication
+com.rolfwang.mobilesafe.application.MyApplication: MyApplication()
+com.rolfwang.mobilesafe.cache.ClearCacheActivity
+com.rolfwang.mobilesafe.cache.ClearCacheActivity: ClearCacheActivity()
+com.rolfwang.mobilesafe.db.dao.AddressDao: java.lang.String queryAddress(java.lang.String,android.content.Context)
+com.rolfwang.mobilesafe.engine.SmsEngine: void backupSms(android.content.Context,java.lang.String,com.rolfwang.mobilesafe.engine.SmsEngine$ProcessListener)
+com.rolfwang.mobilesafe.procmanager.TaskManagerActivity
+com.rolfwang.mobilesafe.procmanager.TaskManagerActivity: TaskManagerActivity()
+com.rolfwang.mobilesafe.procmanager.TaskManagerActivity: void clear(android.view.View)
+com.rolfwang.mobilesafe.procmanager.TaskManagerActivity: void selectAll(android.view.View)
+com.rolfwang.mobilesafe.procmanager.TaskManagerActivity: void cancel(android.view.View)
+com.rolfwang.mobilesafe.procmanager.TaskManagerActivity: void setting(android.view.View)
+com.rolfwang.mobilesafe.receiver.Admin
+com.rolfwang.mobilesafe.receiver.Admin: Admin()
+com.rolfwang.mobilesafe.receiver.BootCompleteReceiver
+com.rolfwang.mobilesafe.receiver.BootCompleteReceiver: BootCompleteReceiver()
+com.rolfwang.mobilesafe.receiver.MyAppWidgestProvider
+com.rolfwang.mobilesafe.receiver.MyAppWidgestProvider: MyAppWidgestProvider()
+com.rolfwang.mobilesafe.receiver.SmsReceiver
+com.rolfwang.mobilesafe.receiver.SmsReceiver: SmsReceiver()
+com.rolfwang.mobilesafe.service.AddressService
+com.rolfwang.mobilesafe.service.AddressService: AddressService()
+com.rolfwang.mobilesafe.service.BlackNumService
+com.rolfwang.mobilesafe.service.BlackNumService: BlackNumService()
+com.rolfwang.mobilesafe.service.GPSService
+com.rolfwang.mobilesafe.service.GPSService: GPSService()
+com.rolfwang.mobilesafe.service.WatchDogAppLockService
+com.rolfwang.mobilesafe.service.WatchDogAppLockService: WatchDogAppLockService()
+com.rolfwang.mobilesafe.service.WidgestService
+com.rolfwang.mobilesafe.service.WidgestService: WidgestService()
+com.rolfwang.mobilesafe.softmanager.SoftManagerActivity
+com.rolfwang.mobilesafe.softmanager.SoftManagerActivity: SoftManagerActivity()
+com.rolfwang.mobilesafe.softmanager.SoftManagerActivity: void onClick(android.view.View)
+com.rolfwang.mobilesafe.softmanager.WatchDogUnlockActivity
+com.rolfwang.mobilesafe.softmanager.WatchDogUnlockActivity: WatchDogUnlockActivity()
+com.rolfwang.mobilesafe.softmanager.WatchDogUnlockActivity: void unlock(android.view.View)
+com.rolfwang.mobilesafe.softmanager.WatchDogUnlockActivity: void cancel(android.view.View)
+com.rolfwang.mobilesafe.telesafe.CallSmsSafeActivity
+com.rolfwang.mobilesafe.telesafe.CallSmsSafeActivity: CallSmsSafeActivity()
+com.rolfwang.mobilesafe.trafficstate.TrafficStateActivity
+com.rolfwang.mobilesafe.trafficstate.TrafficStateActivity: TrafficStateActivity()
+com.rolfwang.mobilesafe.ui.SettingEnterView
+com.rolfwang.mobilesafe.ui.SettingEnterView: SettingEnterView(android.content.Context,android.util.AttributeSet,int)
+com.rolfwang.mobilesafe.ui.SettingEnterView: SettingEnterView(android.content.Context,android.util.AttributeSet)
+com.rolfwang.mobilesafe.ui.SettingEnterView: SettingEnterView(android.content.Context)
+com.rolfwang.mobilesafe.ui.SettingEnterView: void setTitle(java.lang.String)
+com.rolfwang.mobilesafe.ui.SettingEnterView: void setDes(java.lang.String)
+com.rolfwang.mobilesafe.ui.SettingView
+com.rolfwang.mobilesafe.ui.SettingView: SettingView(android.content.Context,android.util.AttributeSet,int)
+com.rolfwang.mobilesafe.ui.SettingView: SettingView(android.content.Context,android.util.AttributeSet)
+com.rolfwang.mobilesafe.ui.SettingView: SettingView(android.content.Context)
+com.rolfwang.mobilesafe.ui.SettingView: void setTitle(java.lang.String)
+com.rolfwang.mobilesafe.ui.SettingView: void setDes(java.lang.String)
+com.rolfwang.mobilesafe.ui.SettingView: void setChecked(boolean)

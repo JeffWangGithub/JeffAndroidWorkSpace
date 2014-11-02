@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:text="功能列表"/>
+    <!-- android:ellipsize="marquee"此属性设置，文字的内容在view中的显示方式。start表示显示开始，不能显示的内容用省略号表示
+    	end表示开头用省略号;marquee表示滚动显示，但是滚动效果必须要获得焦点才能生效,所以要在指定focusable和focusableInTouchMode -->
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:singleLine="true"
+        android:text="欢迎使用手机安全卫士，我们采用真八核技术，360保卫您的手机，给您带来更好的体验"/>
+    
+    <!--android:verticalSpacing="8dip"
+        android:horizontalSpacing="3dip"分别表示水垂直和水平之间的网格之间的距离  -->
+        
+    <GridView 
+        android:id="@+id/gv_home"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="3"
+        android:verticalSpacing="8dip"
+        android:horizontalSpacing="3dip"
+         android:layout_marginTop="10dip"
+        ></GridView>
+
+</LinearLayout>

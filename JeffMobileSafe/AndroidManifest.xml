@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rolfwang.mobilesafe"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+	<uses-permission android:name="android.permission.GET_TASKS"/>
+	<uses-permission android:name="android.permission.READ_SMS"/>
+	<uses-permission android:name="android.permission.WRITE_SMS"/>
+	<uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+	<uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:name=".application.MyApplication">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+           <intent-filter>
+                <action android:name="com.rolfwang.mobilesafe.SHUTCUT_START_APP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.HomeActivity" >
+             
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.SettingActivity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.LostFindActivity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.Setup1Activity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.Setup2Activity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.Setup3Activity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.Setup4Activity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.ContactActivity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.advanced.AToolsActivity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.advanced.QueryAddressActivity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.ChangePostionActivity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.telesafe.CallSmsSafeActivity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.softmanager.SoftManagerActivity" >
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.procmanager.TaskManagerActivity" >
+        </activity>
+        <!-- android:excludeFromRecents="true"表示从最近任务列表中移除此Activity，即不再最近任务列表中显示此Activity -->
+        <activity android:name="com.rolfwang.mobilesafe.softmanager.WatchDogUnlockActivity" 
+            android:launchMode="singleInstance"
+            android:excludeFromRecents="true">
+        </activity>
+        <activity android:name="com.rolfwang.mobilesafe.trafficstate.TrafficStateActivity"></activity>
+        <activity android:name="com.rolfwang.mobilesafe.antivirus.AntivirusActivity"></activity>
+        <activity android:name="com.rolfwang.mobilesafe.cache.ClearCacheActivity"></activity>
+        
+
+        <receiver android:name="com.rolfwang.mobilesafe.receiver.BootCompleteReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.rolfwang.mobilesafe.receiver.SmsReceiver" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <!--AppWidgest的配置  -->
+        <receiver android:name="com.rolfwang.mobilesafe.receiver.MyAppWidgestProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/my_appwidget_info" />
+        </receiver>
+
+        <service android:name="com.rolfwang.mobilesafe.service.GPSService" >
+        </service>
+        <service android:name="com.rolfwang.mobilesafe.service.AddressService" >
+        </service>
+        <service android:name="com.rolfwang.mobilesafe.service.BlackNumService" >
+        </service>
+        <!--Widgest的服务  -->
+        <service android:name="com.rolfwang.mobilesafe.service.WidgestService" >
+        </service>
+        <service android:name="com.rolfwang.mobilesafe.service.WatchDogAppLockService" >
+        </service>
+        
+        
+
+        <receiver
+            android:name="com.rolfwang.mobilesafe.receiver.Admin"
+            android:description="@string/device_admin_description"
+            android:label="@string/device_admin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

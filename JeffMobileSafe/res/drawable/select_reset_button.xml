@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/shape_circle_corner_bg2" android:state_pressed="true"/>
+ <!-- pressed 显示的图片 -->
+    <item android:state_focused="true"
+          android:drawable="@drawable/shape_circle_corner_bg2" /> <!-- focused 获取焦点显示的图片 -->
+
+    <item android:drawable="@drawable/shape_circle_corner_bg" /> <!-- default  什么都没干显示的图片 -->
+
+</selector>

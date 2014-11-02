@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:text="testTitle"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@id/tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_margin="3dp"
+        android:text="testDes"
+        android:textColor="#99000000"
+        android:textSize="16sp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_below="@id/tv_des"
+        android:background="#000000" />
+    <!-- android:clickable="false"属性设置了禁止CheckBox单击， -->
+    <ImageView
+        android:clickable="false"
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/jiantou1_pressed"
+        android:layout_marginRight="18dp" />
+
+</RelativeLayout>

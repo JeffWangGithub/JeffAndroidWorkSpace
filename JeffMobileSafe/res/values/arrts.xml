@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--声明的时候必须指定name，指定给哪个控件声明属性，要设置全限定类名  -->
+    <declare-styleable name="com.rolfwang.mobilesafe.ui.SettingView">
+        <attr name="title" format="string"/>
+        <attr name="des_on" format="string"/>
+        <attr name="des_off" format="string"/>
+         <attr name="des" format="string" />
+    </declare-styleable>
+</resources>

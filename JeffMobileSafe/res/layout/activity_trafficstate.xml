@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:text="流量统计"
+        android:textSize="20sp" />
+
+    <SlidingDrawer
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:content="@+id/sd_content"
+        android:handle="@+id/sd_handle"
+        android:orientation="vertical"
+        android:translationY="-5dp" >
+
+        <TextView
+            android:id="@id/sd_handle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sliding_drawer_handle"
+            android:gravity="center"
+            android:padding="3dip"
+            android:text="流量监控"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:id="@id/sd_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff0000"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SlidingDrawer1" />
+        </LinearLayout>
+    </SlidingDrawer>
+    
+    
+    
+    
+
+</LinearLayout>

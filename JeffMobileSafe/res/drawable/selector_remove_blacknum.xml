@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/main_clean_icon_pressed" android:state_pressed="true"/>
+ <!-- pressed 显示的图片 -->
+    <item android:state_focused="true"
+          android:drawable="@drawable/main_clean_icon_pressed" /> <!-- focused 获取焦点显示的图片 -->
+    <item android:drawable="@drawable/main_clean_icon" /> <!-- default  什么都没干显示的图片 -->
+</selector>

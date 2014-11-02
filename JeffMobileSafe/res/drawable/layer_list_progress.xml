@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--水平进度条的背景图片  -->
+    <item android:id="@android:id/background">
+        <bitmap android:src="@drawable/security_progress_bg"/>
+    </item>
+    <!--水平进度条的进度图片  -->
+    <item android:id="@android:id/progress">
+        <bitmap android:src="@drawable/security_progress"/>
+    </item>
+</layer-list>

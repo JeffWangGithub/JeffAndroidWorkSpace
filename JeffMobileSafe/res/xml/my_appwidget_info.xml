@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="294dp"
+    android:minHeight="72dp"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/my_appwidget"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard"
+    android:initialKeyguardLayout="@layout/my_appwidget">
+</appwidget-provider>
+
+ <!--  
+ 	android:previewImage="@drawable/preview" 预览图标，没有回默认显示应用图标
+	android:minWidth="294dp"  最小的宽度
+    android:minHeight="72dp"  最小的高度
+     android:updatePeriodMillis="0" 自动更新的间隔时间，0是默认事件(应该是15分钟)
+     android:initialLayout="@layout/my_appwidget" 桌面控件的初始化布局
+     android:resizeMode="horizontal|vertical" 重置大小的模式（横竖屏切换时起作用），一般
+-->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手机安全卫士</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="device_admin_description">可以进行远程锁屏和远程清理数据</string>
+    <string name="device_admin">手机卫士</string>
+
+</resources>
